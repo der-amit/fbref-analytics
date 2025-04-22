@@ -1,0 +1,4 @@
+venv/
+
+#ignore raw
+data/mls2025_stats*.csv

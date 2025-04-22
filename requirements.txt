@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+pandas
+lxml
+notebook
+plotly
+mplsoccer
+selenium
+webdriver_manager
+html5lib
