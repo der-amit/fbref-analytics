@@ -8,3 +8,4 @@ mplsoccer
 selenium
 webdriver_manager
 html5lib
+kaleido
