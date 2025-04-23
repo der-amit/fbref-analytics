@@ -2,4 +2,4 @@ venv/
 
 #ignore raw
 data/mls2025_stats*.csv
-data/player_gca_2025.csv
+data/player_gca_2025*.csv
