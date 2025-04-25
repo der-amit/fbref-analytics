@@ -37,6 +37,19 @@ standard_col = ['Squad', 'Players_used','Age',	'Poss',	'Matches',	'Starts',
                 'Assists_90', 'G+A_90', 'G-PK_90', 'G+A-PK_90', 
                 'xG_90', 'xAG_90', 'xG+xAG_90', 'npxG_90', 'npxG+xAG_90']
 
+pass_col = [
+    'Squad', 'Players_used', '90s',	'Pass_Cmp',	'Pass_Att',	'Pass_Cmp%','Pass_TotDist'	,'Pass_PrgDist',
+    'ShortPass_Cmp','ShortPass_Att',	'ShortPass_Cmp%',	'MedPass_Cmp',	'MedPass_Att',	'MedPass_Cmp%',	
+    'LongPass_Cmp',	'LongPass_Att',	'LongPass_Cmp%',
+    'Assists','xAG','xA','A-xAG', 'KeyPasses','Pass_FinalTrd','Pass_PenArea','Crs_PenArea','PrgP'
+]
+
+poss_col = [
+    'Squad', 'Players_used', 'Poss', '90s', 
+    'Touches', 'Touches_DefPen', 'Touches_Def3rd', 'Touches_Mid3rd', 'Touches_Att3rd', 'Touches_AttPen', 'Touches_Live', 
+    'TO_Att', 'TO_Succ', 'TO_Succ%', 'TO_Tkld', 'TO_Tkld%', 
+    'Carries', 'TotDist', 'PrgDist', 'PrgC', 'Carry1/3', 'Carry_PA', 'Mis', 'Dis', 'Pass_Rec', 'Pass_PrgR'
+]
 
 
 mls_defense_25 = clean_table('data/mls2025_stats_squads_defense_for.csv', def_cols, 'data/mls2025_defense_cleaned.csv')
@@ -46,3 +59,9 @@ mls_gca_25 = clean_table('data/mls2025_stats_squads_gca_for.csv', gca_cols,'data
 mls_shooting_25 = clean_table('data/mls2025_stats_squads_shooting_for.csv',shooting_col, 'data/mls2025_shooting_cleaned.csv')
 
 mls_standard_25 = clean_table('data/mls2025_stats_squads_standard_for.csv', standard_col, 'data/mls2025_standard_cleaned.csv')
+
+mls_passing_25 = clean_table('/Users/amitmishra/fbref-analytics/data/mls2025_stats_squads_passing_for.csv', pass_col, 
+                             'data/mls2025_passing_cleaned.csv')
+
+mls_poss_25 = clean_table('/Users/amitmishra/fbref-analytics/data/mls2025_stats_squads_possession_for.csv', poss_col,
+                          'data/mls2025_possession_cleaned.csv')
