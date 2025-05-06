@@ -1,4 +1,4 @@
-Rk,Player,Nation,Pos,Squad,Age,Born,90s,SCA,SCA90,SCA_PassLive,SCA_PassDead,SCA_TO,SCA_Shot,SCA_Fld,SCA_DefAct,GCA,GCA90,GCA_PassLive,GCA_PassDead,GCA_TO,GCA_Shot,GCA_Fld,GCA_DefAct
+Player,Nation,Pos,Squad,Age,Born,90s,Tkl_attempted,TklW,Tkl_Def,Tkl_Mid,Tkl_Att,Drib_Tkl,Drib_chal,Drib_Tkl%,Chal_Lost,Blocks,Shots_blocked,Pass_blocked,Interceptions,Tkl+Int,Clr,Err_shot,Matches
 Luis Abram,pe PER,DF,Atlanta Utd,29-067,1996,6.8,5,2,4,1,0,4,8,50.0,4,5,2,3,1,6,31,0,Matches
 Lalas Abubakar,gh GHA,DF,FC Dallas,30-131,1994,2.0,5,4,2,2,1,3,4,75.0,1,2,1,1,5,10,16,0,Matches
 Kellyn Acosta,us USA,MF,Chicago Fire,29-285,1995,4.3,4,2,2,2,0,2,4,50.0,2,3,0,3,5,9,6,0,Matches
